@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        //pdf resource
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:background="@color/black">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/gray"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/pdf_resource"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/flat"
+                        />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PDF RESOURCE"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        //bank prev year ques
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:background="@color/black">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/gray"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/bank_prev_ques_ID"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/flat"
+                        />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BANK PREV YEAR QUES"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        //cse/it sector prev year ques
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:background="@color/black">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/gray"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/cse_prev_ques_ID"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/flat"
+                        />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CSE/IT PREV YEAR QUES"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        //eee sector prev year ques
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:background="@color/black">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/gray"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/eee_prev_ques_ID"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/flat"
+                        />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="EEE PREV YEAR QUES"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        //bivinno sorkari cakuri ques
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:background="@color/black">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/gray"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/all_govt_prev_ques_ID"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/flat"
+                        />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ALL GOVT PREV YEAR QUES"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

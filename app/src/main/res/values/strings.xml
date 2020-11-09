@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">BD JOB PREP</string>
+    <string name="janata_bank_aeo_2019">JANATA BANK AEO 2019</string>
+    <string name="janata_bank_aeo_teller_2020">JANATA BANK AEO TELLER 2020</string>
+    <string name="janata_bank_2018">JANATA BANK 2018</string>
+    <string name="uttara_bank_2017">UTTARA BANK 2017</string>
+    <string name="uttara_bank_ao_cash_2017">UTTARA BANK AO CASH 2017</string>
+    <string name="uttara_bank_pbo_2017">UTTARA BANK PBO 2017</string>
+    <string-array name="eee_ques_list">
+
+        <item>BADC SAE 2018</item>
+        <item>BOFE SAE 2018</item>
+        <item>BPDB REB 2018</item>
+        <item>BPDB RPCL 2018</item>
+        <item>BPDB SAE 2018</item>
+        <item>BR POWER GEN SAE 2018</item>
+        <item>BREB AJE 2018</item>
+        <item>BSEC AE 2018</item>
+        <item>BSEC SAE 2018</item>
+        <item>BTV SAE 2018</item>
+        <item>DPDC SAE 2018</item>
+        <item>EGCB NON DEPT SAE 2018</item>
+        <item>EGCB SAE 2018</item>
+        <item>EGCB SAE2 2018</item>
+        <item>MES NON DEPT SAE 2018</item>
+        <item>NWPGCL SAE 2018</item>
+        <item>NWPGCL SAE2 2018</item>
+        <item>PGCB SAE 2019</item>
+        <item>PGCB SAE 2018</item>
+        <item>SONALI BANK SAE 2019</item>
+        <item>SPE JSAM SAE 2019</item>
+        <item>TGTCL SAE 2019</item>
+        <item>WASA SAE 2019</item>
+
+    </string-array>
+</resources>

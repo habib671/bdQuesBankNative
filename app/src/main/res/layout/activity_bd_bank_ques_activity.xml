@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".bank_ques_activities.bd_bank_ques_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:orientation="vertical"
+            android:background="@color/black">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/gray"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:padding="10dp"
+                    android:id="@+id/one"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/bd_bank"
+                        />
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BANGLADESH BANK 2001-2009"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/gray"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:padding="10dp"
+                    android:id="@+id/two"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <ImageView
+
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="32dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/bd_bank"
+                        />
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BANGLADESH BANK 2001-2015"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/gray"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:padding="10dp"
+                    android:id="@+id/three"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/bd_bank"
+                        />
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BANGLADESH BANK AD 2016"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/gray"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:padding="10dp"
+                    android:id="@+id/four"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <ImageView
+
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="32dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/bd_bank"
+                        />
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BANGLADESH BANK AD 2017"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="@color/gray"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:padding="10dp"
+                    android:id="@+id/five"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <ImageView
+
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="32dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/bd_bank"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BANGLADESH BANK officer 2018"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
