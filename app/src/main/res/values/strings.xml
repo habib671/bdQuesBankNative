@@ -1,13 +1,91 @@
 <resources>
-    <string name="app_name">BD JOB PREP</string>
+    <string name="app_name">BD Question Bank</string>
     <string name="janata_bank_aeo_2019">JANATA BANK AEO 2019</string>
     <string name="janata_bank_aeo_teller_2020">JANATA BANK AEO TELLER 2020</string>
     <string name="janata_bank_2018">JANATA BANK 2018</string>
     <string name="uttara_bank_2017">UTTARA BANK 2017</string>
     <string name="uttara_bank_ao_cash_2017">UTTARA BANK AO CASH 2017</string>
     <string name="uttara_bank_pbo_2017">UTTARA BANK PBO 2017</string>
+    <string name="image_view">Image View</string>
+    <string name="card_title">Card Title</string>
+    <string name="search">Search</string>
+    <string name="user_name">User Name</string>
+    <string name="institute_name">Institute Name</string>
+    <string name="daily_quiz_score">Daily quiz score</string>
+    <string name="quiz_score_value">100</string>
+    <string name="take_quiz">Take Quiz</string>
+    <string name="school_college_questions">School, College questions</string>
+    <string name="ssc">SSC</string>
+    <string name="hsc">HSC</string>
+    <string name="admission">Admission</string>
+    <string name="bcs_job_questions">BCS, Job questions</string>
+    <string name="bcs">BCS</string>
+    <string name="banks">Banks</string>
+    <string name="government">Government</string>
+    <string name="cse_it">CSE / IT</string>
+    <string name="electronics">Electronics</string>
+    <string name="reading_materials">Reading Materials</string>
+    <string name="bengali_books">বাংলা</string>
+    <string name="english_books">ইংরেজি</string>
+    <string name="math_books">গাণিতিক বিষয়াবলী</string>
+    <string name="bd_study_books">বাংলাদেশ বিষয়বলী</string>
+    <string name="english_literature_books">ইংরেজি ভাষা ও সাহিত্য</string>
+    <string name="international_affair_books">আন্তর্জাতিক বিষয়াবলী</string>
+    <string name="general_knowledge_books">সাধারণ বিজ্ঞান</string>
+    <string name="geography_books">ভূগোল পরিবেশ ও দুর্যোগ ব্যবস্থাপনা</string>
+    <string name="ethics_books">নৈতিকতা মূল্যবোধ ও সুশাসন</string>
+    <string name="mental_ability_books">মানসিক দক্ষতা</string>
+    <string name="cse_books">কম্পিউটার ও তথ্য প্রযুক্তি</string>
+    <string name="board_books">সকল বোর্ড বই</string>
+    <string name="large_books">বড় বই কালেকশন</string>
+    <string name="mixed_books">মিক্সড কালেকশন</string>
+    <string name="ssc_questions">SSC Questions</string>
+    <string name="accounting">Accounting</string>
+    <string name="agriculture">Agriculture</string>
+    <string name="bangla_1st_paper">Bangla 1st Paper</string>
+    <string name="bangla_2nd_paper">Bangla 2nd Paper</string>
+    <string name="bangladesh_and_world_view">Bangladesh and World View</string>
+    <string name="biology">Biology</string>
+    <string name="business_initiative">Business Initiative</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="economics">Economics</string>
+    <string name="english_1st_paper">English 1st Paper</string>
+    <string name="finance_and_banking">Finance and Banking</string>
+    <string name="geography_and_environment">Geography and Environment</string>
+    <string name="higher_math">Higher Math</string>
+    <string name="general_math">General Math</string>
+    <string name="home_science">Home Science</string>
+    <string name="islam_and_moral_education">Islam and Moral education</string>
+    <string name="ict">ICT</string>
+    <string name="hindu_religion">Hindu Religion</string>
+    <string name="ssc_accounting_2015">SSC Accounting 2015</string>
+    <string name="ssc_accounting_2016">SSC Accounting 2016</string>
+    <string name="ssc_accounting_2017">SSC Accounting 2017</string>
+    <string name="ssc_accounting_2018">SSC Accounting 2018</string>
+    <string name="ssc_accounting_2019">SSC Accounting 2019</string>
+    <string name="ssc_accounting_all_board">SSC Accounting All Board</string>
+    <string name="ssc_agriculture_2015">SSC Agriculture 2015</string>
+    <string name="ssc_agriculture_2016">SSC Agriculture 2016</string>
+    <string name="ssc_agriculture_2017">SSC Agriculture 2017</string>
+    <string name="ssc_agriculture_2018">SSC Agriculture 2018</string>
+    <string name="ssc_agriculture_2019">SSC Agriculture 2019</string>
+    <string name="ssc_agriculture_all_board">SSC Agriculture All board</string>
+    <string name="ssc_bangla_1st_paper_2015">SSC Bangla 1st Paper 2015</string>
+    <string name="ssc_bangla_1st_paper_2016">SSC Bangla 1st Paper 2016</string>
+    <string name="ssc_bangla_1st_paper_2017">SSC Bangla 1st Paper 2017</string>
+    <string name="ssc_bangla_1st_paper_2018">SSC Bangla 1st Paper 2018</string>
+    <string name="ssc_bangla_1st_paper_2019">SSC Bangla 1st Paper 2019</string>
+    <string name="user_preferences">User Preferences</string>
+    <string name="select_pic">Change</string>
+    <string name="app_theme">App Theme</string>
+    <string name="save_changes">Save changes</string>
+    <string name="light_green">Light Green</string>
+    <string name="dark_pink">Dark Pink</string>
+    <string name="ssc_bangla_1st_paper_all_board">SSC Bangla 1st Paper All Board</string>
+    <string name="new_pic_selected">Picture selected</string>
+    <string name="saved_changes">Saved changes</string>
+    <string name="long_text_demo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non bibendum libero. Maecenas vitae sapien tempor, sodales nisi et, efficitur risus. Ut at lectus nunc. Etiam ac facilisis nibh. Proin faucibus neque non dolor ullamcorper malesuada. Praesent blandit sem aliquet dolor dapibus convallis. Etiam sed justo eu nunc lacinia facilisis tristique a augue. Quisque eget sem eget enim posuere maximus. Fusce vulputate orci non elit fringilla elementum vitae sit amet orci. Fusce ullamcorper odio sed pellentesque pharetra. Maecenas vel urna ac dui volutpat tincidunt a in magna. Sed vel porttitor leo, sed laoreet est. Aliquam nec nulla eget lorem accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non bibendum libero. Maecenas vitae sapien tempor, sodales nisi et, efficitur risus. Ut at lectus nunc. Etiam ac facilisis nibh. Proin faucibus neque non dolor ullamcorper malesuada. Praesent blandit sem aliquet dolor dapibus convallis. Etiam sed justo eu nunc lacinia facilisis tristique a augue. Quisque eget sem eget enim posuere maximus. Fusce vulputate orci non elit fringilla elementum vitae sit amet orci. Fusce ullamcorper odio sed pellentesque pharetra. Maecenas vel urna ac dui volutpat tincidunt a in magna. Sed vel porttitor leo, sed laoreet est. Aliquam nec nulla eget lorem accumsan</string>
     <string-array name="eee_ques_list">
-
         <item>BADC SAE 2018</item>
         <item>BOFE SAE 2018</item>
         <item>BPDB REB 2018</item>
@@ -31,6 +109,5 @@
         <item>SPE JSAM SAE 2019</item>
         <item>TGTCL SAE 2019</item>
         <item>WASA SAE 2019</item>
-
     </string-array>
 </resources>

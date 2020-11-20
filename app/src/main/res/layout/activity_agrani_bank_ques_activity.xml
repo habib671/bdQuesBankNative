@@ -4,174 +4,167 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
-    tools:context=".bank_ques_activities.agrani_bank_ques_activity">
-
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    tools:context=".JobsBankQuesActivities.agrani_bank_ques_activity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="15dp"
-        android:orientation="vertical"
-        android:background="@color/black">
+        android:orientation="vertical">
 
-        <androidx.cardview.widget.CardView
-            app:cardBackgroundColor="@color/gray"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="8dp"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <LinearLayout
-                android:padding="10dp"
-                android:id="@+id/one"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="match_parent">
-                <ImageView
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="32dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_height="32dp"
-                    android:src="@drawable/agrani_bank"
-                    />
-                <TextView
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="?attr/colorButtonNormal"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp">
 
-
+                <LinearLayout
+                    android:id="@+id/one"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="AGRANI BANK 2017"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
 
-                    />
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/agrani_bank" />
 
-            </LinearLayout>
+                    <TextView
 
 
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="AGRANI BANK 2017"
+                        android:textColor="?android:attr/textColorPrimary"
+                        android:textSize="20sp"
 
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_marginTop="15dp"
-            app:cardBackgroundColor="@color/gray"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="8dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <LinearLayout
-                android:padding="10dp"
-                android:id="@+id/two"
+                        />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="match_parent">
-                <ImageView
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="?attr/colorButtonNormal"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp">
 
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="32dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_height="32dp"
-                    android:src="@drawable/agrani_bank"
-                    />
-                <TextView
-
-
+                <LinearLayout
+                    android:id="@+id/two"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="AGRANI BANK CASH 2017"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
 
-                    />
+                    <ImageView
 
-            </LinearLayout>
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/agrani_bank" />
+
+                    <TextView
 
 
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="AGRANI BANK CASH 2017"
+                        android:textColor="?android:attr/textColorPrimary"
+                        android:textSize="20sp"
 
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_marginTop="15dp"
-            app:cardBackgroundColor="@color/gray"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="8dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <LinearLayout
-                android:padding="10dp"
-                android:id="@+id/three"
+                        />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="match_parent">
-                <ImageView
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="?attr/colorButtonNormal"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp">
 
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="32dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_height="32dp"
-                    android:src="@drawable/agrani_bank"
-                    />
-                <TextView
+                <LinearLayout
+                    android:id="@+id/three"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="AGRANI BANK SO 2015"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
 
-                    />
+                    <ImageView
 
-            </LinearLayout>
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/agrani_bank" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="AGRANI BANK SO 2015"
+                        android:textColor="?android:attr/textColorPrimary"
+                        android:textSize="20sp"
+
+                        />
+
+                </LinearLayout>
 
 
+            </androidx.cardview.widget.CardView>
 
-        </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_marginTop="15dp"
-            app:cardBackgroundColor="@color/gray"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="8dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <LinearLayout
-                android:padding="10dp"
-                android:id="@+id/four"
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="match_parent">
-                <ImageView
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                app:cardBackgroundColor="?attr/colorButtonNormal"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="8dp">
 
-                    android:layout_gravity="center_horizontal"
-                    android:layout_width="32dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_height="32dp"
-                    android:src="@drawable/agrani_bank"
-                    />
-                <TextView
-
+                <LinearLayout
+                    android:id="@+id/four"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="AGRANI BANK SO 2017"
-                    android:textColor="@color/white"
-                    android:textSize="20sp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
 
-                    />
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/agrani_bank" />
 
-            </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="AGRANI BANK SO 2017"
+                        android:textColor="?android:attr/textColorPrimary"
+                        android:textSize="20sp" />
 
+                </LinearLayout>
 
+            </androidx.cardview.widget.CardView>
 
-        </androidx.cardview.widget.CardView>
-
-
-
-
-
+        </LinearLayout>
 
     </LinearLayout>
-
-
-
-</LinearLayout>
 
 </ScrollView>

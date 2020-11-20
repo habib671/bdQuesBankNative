@@ -1,42 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bdjobprep">
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".bank_ques_activities.mixed_bank_ques_activity"></activity>
-        <activity android:name=".bank_ques_activities.pkb_bank_ques_activity" />
-        <activity android:name=".bank_ques_activities.janata_bank_ques_activity" />
-        <activity android:name=".bank_ques_activities.uttara_bank_ques_activity" />
-        <activity android:name=".bank_ques_activities.agrani_bank_ques_activity" />
-        <activity android:name=".bank_ques_activities.rupali_bank_ques_activity" />
-        <activity android:name=".bank_ques_activities.sonali_bank_ques_activity" />
-        <activity android:name=".bank_ques_activities.combined_bank_ques_activity" />
-        <activity android:name=".bank_ques_activities.bd_bank_ques_activity" />
-        <activity android:name=".pdf_resourse_activities.mixed_book_pdf_activity" />
-        <activity android:name=".pdf_resourse_activities.boro_book_pdf_Activity" />
-        <activity android:name=".pdf_resourse_activities.all_board_book_pdf_activity" />
-        <activity android:name=".pdf_resourse_activities.computer_pdf_activity" />
-        <activity android:name=".pdf_resourse_activities.metal_ability_pdf_Activity" />
-        <activity android:name=".pdf_resourse_activities.noitikota_pdf_activity" />
-        <activity android:name=".pdf_resourse_activities.vugol_pdf_activity" />
-        <activity android:name=".pdf_resourse_activities.gk_pdf_activity" />
-        <activity android:name=".pdf_resourse_activities.int_affairs_pdf_activity" />
-        <activity android:name=".pdf_resourse_activities.eng_literature_pdf_Activity" />
-        <activity android:name=".pdf_resourse_activities.bangladesh_pdf_activity" />
-        <activity android:name=".pdf_resourse_activities.math_pdf_activity" />
-        <activity android:name=".pdf_resourse_activities.english_pdf_activity" />
-        <activity android:name=".pdf_resourse_activities.bangla_pdf_activity" />
-        <activity android:name=".xml.pdf_Somvar_activity" />
-        <activity android:name=".xml.all_govtQues_activity" />
-        <activity android:name=".xml.eee_prevQues_activity" />
-        <activity android:name=".xml.cse_it_prevQues_activity" />
-        <activity android:name=".xml.bank_prevQues_activity" />
+        android:theme="@style/AppThemeDarkPink">
+        <activity android:name=".SSCQuesActivities.SSCBengali1Activity" />
+        <activity android:name=".SSCQuesActivities.SSCAgricultureActivity" />
+        <activity android:name=".SSCQuesActivities.SSCAccountingActivity" />
+        <activity android:name=".JobsBankQuesActivities.mixed_bank_ques_activity" />
+        <activity android:name=".JobsBankQuesActivities.pkb_bank_ques_activity" />
+        <activity android:name=".JobsBankQuesActivities.janata_bank_ques_activity" />
+        <activity android:name=".JobsBankQuesActivities.uttara_bank_ques_activity" />
+        <activity android:name=".JobsBankQuesActivities.agrani_bank_ques_activity" />
+        <activity android:name=".JobsBankQuesActivities.rupali_bank_ques_activity" />
+        <activity android:name=".JobsBankQuesActivities.sonali_bank_ques_activity" />
+        <activity android:name=".JobsBankQuesActivities.combined_bank_ques_activity" />
+        <activity android:name=".JobsBankQuesActivities.bd_bank_ques_activity" />
+        <activity android:name=".BooksActivities.MixedBooksctivity" />
+        <activity android:name=".BooksActivities.LargeBooksActivity" />
+        <activity android:name=".BooksActivities.BoardBooksctivity" />
+        <activity android:name=".BooksActivities.ComputerITBooksctivity" />
+        <activity android:name=".BooksActivities.MetalAbilityBooksActivity" />
+        <activity android:name=".BooksActivities.NoitikotaBooksActivity" />
+        <activity android:name=".BooksActivities.GeoBooksActivity" />
+        <activity android:name=".BooksActivities.GKBooksActivity" />
+        <activity android:name=".BooksActivities.IntAffairsBooksActivity" />
+        <activity android:name=".BooksActivities.EngLiteratureBooksActivity" />
+        <activity android:name=".BooksActivities.BangladeshBooksActivity" />
+        <activity android:name=".BooksActivities.MathBooksActivity" />
+        <activity android:name=".BooksActivities.EnglishBooksActivity" />
+        <activity android:name=".BooksActivities.BanglaBooksActivity" />
+        <activity android:name=".CategoryActivities.SchoolsSSCQuesActivity" />
+        <activity android:name=".CategoryActivities.JobsGovtQuesActivity" />
+        <activity android:name=".CategoryActivities.JobsEEEQuesActivity" />
+        <activity android:name=".CategoryActivities.JobsCSEQuesActivity" />
+        <activity android:name=".CategoryActivities.JobsBankQuesActivity" />
+        <activity
+            android:name=".SearchActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

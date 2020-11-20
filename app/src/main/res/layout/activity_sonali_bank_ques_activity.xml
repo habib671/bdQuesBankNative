@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/black"
-    tools:context=".bank_ques_activities.sonali_bank_ques_activity">
+
+    tools:context=".JobsBankQuesActivities.sonali_bank_ques_activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,11 +17,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
-            android:orientation="vertical"
-            android:background="@color/black">
+            android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                app:cardBackgroundColor="@color/gray"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="8dp"
                 android:layout_width="match_parent"
@@ -45,7 +43,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="SBL OFFICER + CASH 2013"
-                        android:textColor="@color/white"
+                        android:textColor="?android:attr/textColorPrimary"
                         android:textSize="20sp"
 
                         />
@@ -57,7 +55,6 @@
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="@color/gray"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="8dp"
                 android:layout_width="match_parent"
@@ -82,7 +79,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="SBL OFFICER CASH 2010"
-                        android:textColor="@color/white"
+                        android:textColor="?android:attr/textColorPrimary"
                         android:textSize="20sp"
 
                         />
@@ -94,7 +91,6 @@
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="@color/gray"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="8dp"
                 android:layout_width="match_parent"
@@ -117,7 +113,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="SBL OFFICER CASH 2014"
-                        android:textColor="@color/white"
+                        android:textColor="?android:attr/textColorPrimary"
                         android:textSize="20sp"
 
                         />
@@ -129,7 +125,6 @@
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="@color/gray"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="8dp"
                 android:layout_width="match_parent"
@@ -153,7 +148,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="SBL SENIOR OFFICER 2010"
-                        android:textColor="@color/white"
+                        android:textColor="?android:attr/textColorPrimary"
                         android:textSize="20sp"
 
                         />
@@ -165,7 +160,6 @@
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="@color/gray"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="8dp"
                 android:layout_width="match_parent"
@@ -189,7 +183,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="SBL SENIOR OFFICER 2013"
-                        android:textColor="@color/white"
+                        android:textColor="?android:attr/textColorPrimary"
                         android:textSize="20sp"
 
                         />
@@ -201,7 +195,6 @@
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="@color/gray"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="8dp"
                 android:layout_width="match_parent"
@@ -225,7 +218,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="SEBL TAO 2019"
-                        android:textColor="@color/white"
+                        android:textColor="?android:attr/textColorPrimary"
                         android:textSize="20sp"
 
                         />
@@ -237,7 +230,6 @@
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="@color/gray"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="8dp"
                 android:layout_width="match_parent"
@@ -260,7 +252,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="SBL OFFICER CASH 2018"
-                        android:textColor="@color/white"
+                        android:textColor="?android:attr/textColorPrimary"
                         android:textSize="20sp"
 
                         />
@@ -272,7 +264,6 @@
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="@color/gray"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="8dp"
                 android:layout_width="match_parent"
@@ -295,7 +286,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="SBL IT OFFICER 2018"
-                        android:textColor="@color/white"
+                        android:textColor="?android:attr/textColorPrimary"
                         android:textSize="20sp"
 
                         />
@@ -307,7 +298,6 @@
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
                 android:layout_marginTop="15dp"
-                app:cardBackgroundColor="@color/gray"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="8dp"
                 android:layout_width="match_parent"
@@ -330,7 +320,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="SBL SENIOR OFFICER 2018"
-                        android:textColor="@color/white"
+                        android:textColor="?android:attr/textColorPrimary"
                         android:textSize="20sp"
 
                         />

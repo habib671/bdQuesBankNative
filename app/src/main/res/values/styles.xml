@@ -1,11 +1,69 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/black</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <!-- Default - Light Green theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">#43A047</item>
+        <item name="colorPrimaryDark">#336644</item>
+        <item name="colorPrimaryVariant">#00C853</item>
+        <item name="colorPrimarySurface">#A5D6A7</item>
+
+        <item name="colorSecondary">#C0CA33</item>
+        <item name="colorSecondaryVariant">#AEEA00</item>
+
+        <item name="colorAccent">#2979FF</item>
+        <item name="iconTint">#BF000000</item>
+        <item name="colorOnBackground">#80000000</item>
+
+    </style>
+
+    <!-- Optional - Dark Red theme -->
+    <style name="AppThemeDarkPink" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorPrimary">#D81B60</item>
+        <item name="colorPrimaryDark">#662244</item>
+        <item name="colorPrimaryVariant">#F50057</item>
+        <item name="colorPrimarySurface">#880E4F</item>
+
+        <item name="colorSecondary">#8E24AA</item>
+        <item name="colorSecondaryVariant">#D500F9</item>
+
+        <item name="colorAccent">#FFC400</item>
+        <item name="iconTint">#BFFFFFFF</item>
+        <item name="colorOnBackground">#80FFFFFF</item>
+
+    </style>
+
+    <!--Text Style for Section Header-->
+    <style name="TextSectionHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!--Edit Text Style with Stroke Border-->
+    <style name="EditTextBordered" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/outline_background</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!--Radio Button Style for Theme Chooser-->
+    <style name="RadioButtonThemeChooser" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">128dp</item>
+        <item name="android:minHeight">72dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:buttonTint">#FFF</item>
     </style>
 
 </resources>

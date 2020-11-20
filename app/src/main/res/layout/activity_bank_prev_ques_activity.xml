@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    android:background="@color/black"
-    tools:context=".xml.bank_prevQues_activity">
+    tools:context=".CategoryActivities.JobsBankQuesActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,96 +12,97 @@
         android:orientation="vertical"
         tools:ignore="ExtraText">
 
-        //Bd bank+combined bank
+        <!--//Bd bank+combined bank-->
         <LinearLayout
-            android:baselineAligned="false"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:baselineAligned="false"
             android:orientation="horizontal">
+
             <LinearLayout
-                android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
-                android:padding="15dp"
+                android:layout_weight="1"
                 android:orientation="vertical"
-                android:background="@color/black">
+                android:padding="15dp">
 
                 <androidx.cardview.widget.CardView
-                    app:cardBackgroundColor="@color/gray"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="8dp"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="8dp">
+
                     <LinearLayout
                         android:id="@+id/bangladeshBank_ques_ID"
                         android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
                         <ImageView
-                            android:layout_gravity="center_horizontal"
                             android:layout_width="44dp"
                             android:layout_height="44dp"
+                            android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
-                            android:src="@drawable/bd_bank"
-                            />
+                            android:src="@drawable/bd_bank" />
+
                         <TextView
-                            android:layout_marginTop="5dp"
-                            android:textAlignment="center"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Bangladesh Bank"
-                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:textColor="?android:attr/textColorPrimary"
                             android:textSize="20sp"
 
                             />
 
                     </LinearLayout>
-
 
 
                 </androidx.cardview.widget.CardView>
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="200dp"
-                android:padding="15dp"
+                android:layout_weight="1"
                 android:orientation="vertical"
-                android:background="@color/black">
+                android:padding="15dp">
 
                 <androidx.cardview.widget.CardView
-                    app:cardBackgroundColor="@color/gray"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="8dp"
+
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="8dp">
+
                     <LinearLayout
                         android:id="@+id/combinedBank_ques_ID"
                         android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
                         <ImageView
-                            android:layout_gravity="center_horizontal"
                             android:layout_width="44dp"
                             android:layout_height="44dp"
+                            android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
-                            android:src="@drawable/combined_bank"
-                            />
+                            android:src="@drawable/combined_bank" />
+
                         <TextView
-                            android:layout_marginTop="5dp"
-                            android:textAlignment="center"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Combined Bank"
-                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:textColor="?android:attr/textColorPrimary"
                             android:textSize="20sp"
 
                             />
 
                     </LinearLayout>
-
 
 
                 </androidx.cardview.widget.CardView>
@@ -112,95 +111,98 @@
             </LinearLayout>
         </LinearLayout>
         //sonali+rupali
+
         <LinearLayout
-            android:baselineAligned="false"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:baselineAligned="false"
             android:orientation="horizontal">
+
             <LinearLayout
-                android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
-                android:padding="15dp"
+                android:layout_weight="1"
                 android:orientation="vertical"
-                android:background="@color/black">
+                android:padding="15dp">
 
                 <androidx.cardview.widget.CardView
-                    app:cardBackgroundColor="@color/gray"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="8dp"
+
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="8dp">
+
                     <LinearLayout
                         android:id="@+id/sonaliBank_ques_ID"
                         android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
                         <ImageView
-                            android:layout_gravity="center_horizontal"
                             android:layout_width="44dp"
                             android:layout_height="44dp"
+                            android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
-                            android:src="@drawable/sbl"
-                            />
+                            android:src="@drawable/sbl" />
+
                         <TextView
-                            android:layout_marginTop="5dp"
-                            android:textAlignment="center"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Sonali Bank"
-                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:textColor="?android:attr/textColorPrimary"
                             android:textSize="20sp"
 
                             />
 
                     </LinearLayout>
-
 
 
                 </androidx.cardview.widget.CardView>
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="200dp"
-                android:padding="15dp"
+                android:layout_weight="1"
                 android:orientation="vertical"
-                android:background="@color/black">
+                android:padding="15dp">
 
                 <androidx.cardview.widget.CardView
-                    app:cardBackgroundColor="@color/gray"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="8dp"
+
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="8dp">
+
                     <LinearLayout
                         android:id="@+id/rupaliBank_ques_ID"
                         android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
                         <ImageView
-                            android:layout_gravity="center_horizontal"
                             android:layout_width="44dp"
                             android:layout_height="44dp"
+                            android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
-                            android:src="@drawable/rupali_bank"
-                            />
+                            android:src="@drawable/rupali_bank" />
+
                         <TextView
-                            android:layout_marginTop="5dp"
-                            android:textAlignment="center"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Rupali Bank"
-                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:textColor="?android:attr/textColorPrimary"
                             android:textSize="20sp"
 
                             />
 
                     </LinearLayout>
-
 
 
                 </androidx.cardview.widget.CardView>
@@ -209,97 +211,99 @@
             </LinearLayout>
         </LinearLayout>
         //agrani+janata
+
         <LinearLayout
-            android:baselineAligned="false"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:baselineAligned="false"
             android:orientation="horizontal">
+
             <LinearLayout
-                android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
-                android:padding="15dp"
+                android:layout_weight="1"
                 android:orientation="vertical"
-                android:background="@color/black">
+                android:padding="15dp">
 
                 <androidx.cardview.widget.CardView
-                    app:cardBackgroundColor="@color/gray"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="8dp"
+
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="8dp">
+
                     <LinearLayout
                         android:id="@+id/agraniBank_ques_ID"
                         android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
                         <ImageView
-                            android:layout_gravity="center_horizontal"
                             android:layout_width="44dp"
                             android:layout_height="44dp"
+                            android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
-                            android:src="@drawable/agrani_bank"
-                            />
+                            android:src="@drawable/agrani_bank" />
+
                         <TextView
-                            android:layout_marginTop="5dp"
-                            android:textAlignment="center"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Agrani Bank"
-                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:textColor="?android:attr/textColorPrimary"
                             android:textSize="20sp"
 
                             />
 
                     </LinearLayout>
-
 
 
                 </androidx.cardview.widget.CardView>
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="200dp"
-                android:padding="15dp"
+                android:layout_weight="1"
                 android:orientation="vertical"
-                android:background="@color/black">
+                android:padding="15dp">
 
                 <androidx.cardview.widget.CardView
-                    app:cardBackgroundColor="@color/gray"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="8dp"
+
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="8dp">
+
                     <LinearLayout
                         android:id="@+id/janataBank_ques_ID"
                         android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        android:layout_height="match_parent">
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_marginTop="45dp"
-                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                             android:id="@+id/profile_image"
                             android:layout_width="44dp"
-                            android:layout_gravity="center_horizontal"
                             android:layout_height="44dp"
-                            android:src="@drawable/janata"
-                       />
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:src="@drawable/janata" />
+
                         <TextView
-                            android:layout_marginTop="5dp"
-                            android:textAlignment="center"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Janata Bank"
-                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:textColor="?android:attr/textColorPrimary"
                             android:textSize="20sp"
 
                             />
 
                     </LinearLayout>
-
 
 
                 </androidx.cardview.widget.CardView>
@@ -308,97 +312,100 @@
             </LinearLayout>
         </LinearLayout>
         //uattara+pkb
+
         <LinearLayout
-            android:baselineAligned="false"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:baselineAligned="false"
             android:orientation="horizontal">
+
             <LinearLayout
-                android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
-                android:padding="15dp"
+                android:layout_weight="1"
                 android:orientation="vertical"
-                android:background="@color/black">
+                android:padding="15dp">
 
                 <androidx.cardview.widget.CardView
-                    app:cardBackgroundColor="@color/gray"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="8dp"
+
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="8dp">
+
                     <LinearLayout
                         android:id="@+id/uttaraBank_ques_ID"
                         android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        android:layout_height="match_parent">
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_marginTop="45dp"
-                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                             android:layout_width="44dp"
-                            android:layout_gravity="center_horizontal"
                             android:layout_height="44dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
                             android:src="@drawable/uattara_bank"
 
-                            app:civ_border_color="#FF000000"/>
+                            app:civ_border_color="#FF000000" />
+
                         <TextView
-                            android:layout_marginTop="5dp"
-                            android:textAlignment="center"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Uttara Bank"
-                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:textColor="?android:attr/textColorPrimary"
                             android:textSize="20sp"
 
                             />
 
                     </LinearLayout>
-
 
 
                 </androidx.cardview.widget.CardView>
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="200dp"
-                android:padding="15dp"
+                android:layout_weight="1"
                 android:orientation="vertical"
-                android:background="@color/black">
+                android:padding="15dp">
 
                 <androidx.cardview.widget.CardView
-                    app:cardBackgroundColor="@color/gray"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="8dp"
+
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="8dp">
+
                     <LinearLayout
                         android:id="@+id/pkb_ques_ID"
                         android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
                         <de.hdodenhof.circleimageview.CircleImageView
-                            android:layout_marginTop="45dp"
                             android:layout_width="44dp"
-                            android:layout_gravity="center_horizontal"
                             android:layout_height="44dp"
-                            android:src="@drawable/pkb_bank"
-                           />
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="45dp"
+                            android:src="@drawable/pkb_bank" />
+
                         <TextView
-                            android:layout_marginTop="5dp"
-                            android:textAlignment="center"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Prabashi Kollyan Bank"
-                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:textColor="?android:attr/textColorPrimary"
                             android:textSize="20sp"
 
                             />
 
                     </LinearLayout>
-
 
 
                 </androidx.cardview.widget.CardView>
@@ -407,50 +414,52 @@
             </LinearLayout>
         </LinearLayout>
         //mixed bank
+
         <LinearLayout
-            android:baselineAligned="false"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:baselineAligned="false"
             android:orientation="horizontal">
+
             <LinearLayout
-                android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
-                android:padding="15dp"
+                android:layout_weight="1"
                 android:orientation="vertical"
-                android:background="@color/black">
+                android:padding="15dp">
 
                 <androidx.cardview.widget.CardView
-                    app:cardBackgroundColor="@color/gray"
-                    app:cardCornerRadius="12dp"
-                    app:cardElevation="8dp"
+
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="8dp">
+
                     <LinearLayout
                         android:id="@+id/mixedBank_ques_ID"
                         android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        android:layout_height="match_parent">
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
                         <ImageView
-                            android:layout_gravity="center_horizontal"
                             android:layout_width="44dp"
                             android:layout_height="44dp"
+                            android:layout_gravity="center_horizontal"
                             android:layout_marginTop="45dp"
-                            android:src="@drawable/mixed_bank"
-                            />
+                            android:src="@drawable/mixed_bank" />
+
                         <TextView
-                            android:layout_marginTop="5dp"
-                            android:textAlignment="center"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
                             android:text="Mixed Bank"
-                            android:textColor="@color/white"
+                            android:textAlignment="center"
+                            android:textColor="?android:attr/textColorPrimary"
                             android:textSize="20sp"
 
                             />
 
                     </LinearLayout>
-
 
 
                 </androidx.cardview.widget.CardView>
@@ -459,7 +468,6 @@
             </LinearLayout>
 
         </LinearLayout>
-
 
 
     </LinearLayout>
